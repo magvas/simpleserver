@@ -23,4 +23,4 @@ var addResultToOutput = function (result,response){
     response.end();
 }
 
-server.listen(10000);
+server.listen(10001);

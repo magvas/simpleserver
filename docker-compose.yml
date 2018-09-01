@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  simpleserver:
+    image: simpleserver
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 10001:10001
